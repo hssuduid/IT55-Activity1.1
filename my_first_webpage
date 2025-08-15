@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>HAROLD THE GREAT</title>
+   <meta charset="UTF-8">
+   <meta name="description" content="This is my first HTML page.">
+   <meta name="keywords" content="HTML, beginner, web development">
+   <meta name="author" content="Harold Jay">
+   <style>
+     body { font-family: Arial, sans-serif; background-color: #DBF0BD; }
+     h1 { color: #D28D1D; }
+     p { line-height: 1.5; }
+     .highlight { background-color:#76F842 ; }
+   </style>
+   <script>
+     function greet() {
+               alert("shesh.");
+      }
+</script>
+</head>
+<body onload="greet()">
+    <h1>Welcome to My First Webpage</h1>
+    <p>This is a <b>bold</b> statement, and here is some <i>italic</i> text.</p>
+    <p class="highlight">gwapo harold.</p>
+    <h2>My Favorite Fruits</h2>
+    <ul>
+      <li>Mangga</li>
+      <li>Saging</li>
+      <li>Apol</li>
+    </ul>
+
+    <h2>Binangkal Recipe</h2>
+    <ol>
+      <li>2 cups all-purpose flour</li>
+      <li>1/2 cup powdered milk</li>
+      <li>1 tablespoon baking powder</li>
+      <li>1/2 cup sugar</li>
+      <li>1/2 cup evaporated milk</li>
+      <li>1/4 cup melted butter</li>
+      <li>1 large egg</li>
+      <li>Sesame seeds (for coating)</li>
+      <li>Cooking oil (for deep frying)</li>
+    </ol>
+    <!-- <b>bold<i>italic -->
+    <p>Visit <a href="https://ppop.fandom.com/wiki/IV_Of_Spades/Gallery" target="_blank">IV Of Spades</a> for more
+info.</p>
+     <h2>My Favorite Song</h2>
+     <audio controls>
+         <source src="sariling multo.mp3" type="audio/mpeg">
+         </audio>
+     <h2>My Favorite Movie Scene</h2>
+     <video width="600" height="440" controls>
+         <source src="happy.mp4" type="video/mp4">
+     </video>
+
+     <h2>My Favorite Picture</h2>
+     <img src="spade.jpg" alt="A beautiful view" width="900">
+     <div style="border:1px solid #000; padding:10px; margin-top:10px;">
+        <p>This is a block container using <span style="color:#386EED;">div</span> and <span
+style="font-weight:bold;">span</span> elements.</p>
+     </div>
+     <h2>Class Schedule</h2>
+     <table border="1" cellpadding="5">
+       <tr>
+         <th>Day</th>
+         <th>Subject</th>
+       </tr>
+       <tr>
+         <td>Monday</td>
+         <td>HTML Basics</td>
+       </tr>
+       <tr>
+         <td>Tuesday</td>
+         <td>Physical Education</td>
+       </tr>
+       <tr>
+         <td>Wednesday</td>
+         <td>Science and Technology</td>
+       </tr>
+
+     </table>
+
+     <h2>Contact Me</h2>
+     <form>
+         <label for="name">Name:</label>
+         <input type="text" id="name" name="name"><br><br>
+         <label for="email">Email:</label>
+         <input type="email" id="email" name="email"><br><br>
+         <label for="message">Message:</label><br>
+         <textarea id="message" name="message"></textarea><br><br>
+         <input type="submit" value="Send">
+     </form>
+     
+</body>
+</html>
